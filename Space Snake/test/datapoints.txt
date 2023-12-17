@@ -1,0 +1,9 @@
+#To See Data Points                
+#Insert to ever instance where player moves
+                result_x = lagrange_interpolation(snake.rect.x, points)
+                result_y = lagrange_interpolation(snake.rect.y, points)
+                print("Datapoints = ", points)
+                print("Lagrange Result X = ", result_x)
+                print("Lagrange Result Y = ", result_y)
+                print("Applied Gravity to X = ", gravitational_force_x)
+                print("Applied Gravity to Y = ", gravitational_force_y)
